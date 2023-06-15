@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #F8F9F9;
+}
+
+.imc-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 75rem;
+    min-height: auto;
+    border-radius: 0.625rem;
+    background-color: #EBDEF0;
+}
+
+.imc-container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8.75rem;
+}
+
+.imc-container img {
+    display: flex;
+    max-height: 100%;
+    max-width: 100%;
+    height: 37.5rem;
+    border-radius: 0.625rem 0 0 0.625rem;
+}
+
+.imc-container-content h1 {
+    font-size: 1.875rem;
+    margin: 2.5rem;
+}
+
+.imc-container p {
+    font-size: 1rem;
+}
+
+#imc-container-p {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: -1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.imc-container-content input {
+    background-color: #F8F9F9 ;
+    border: none;
+    margin: 1.25rem;
+}
+
+.imc-container-content button {
+    border: none;
+    margin: 1.25rem;
+    font-size: 1.125rem;
+    border: none;
+    border-radius: 0.625rem;
+    padding: 0.938rem;
+    background-color: #C39BD3;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.imc-container button:hover {
+    font-weight: 600;
+}
+
+.imc-container-content input {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.875rem;
+    border-radius: 0.938rem;
+}
+
+footer, a {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+}
+
