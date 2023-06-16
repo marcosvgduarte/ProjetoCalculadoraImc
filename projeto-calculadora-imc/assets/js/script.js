@@ -1,9 +1,7 @@
-// declarando as variáveis resultado, altura e peso e utilizando o dom.
 var imcResultado = document.querySelector("#imc-resultado");
 var classificadorResultado = document.querySelector("#classificador-resultado");
 var altura = document.querySelector("#input-altura");
 var peso = document.querySelector("#input-peso");
-
 
 window.onload = function () {
   restartGif();
@@ -91,4 +89,6 @@ function formatarCampoPeso() {
 function limparCampos() {
   altura.value = "";
   peso.value = "";
+  imcResultado.innerHTML = "";
+  classificadorResultado.innerHTML = "";
 }
